@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navagation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.appazkar.Fragment.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.appazkar.Fragment.FaveoriteFragment"
+        android:label="@string/favorite"
+        tools:layout="@layout/fragment_faveorite" />
+
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.appazkar.Fragment.SettingFragment"
+        android:label="@string/sitting"
+        tools:layout="@layout/fragment_setting" />
+
+</navigation>
